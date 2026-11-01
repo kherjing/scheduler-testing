@@ -1,10 +1,7 @@
 
-name: Fresh Repository Scheduler Test
-
 on:
   schedule:
-    - cron: "*/5 * * * *"
-
+    - cron: "7,22,39,52 * * * *"
   workflow_dispatch:
 
 permissions:
